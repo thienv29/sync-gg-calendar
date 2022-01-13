@@ -48,7 +48,7 @@ const dateTimeForCalander = () => {
 
     let startDate = event;
     // Delay in end time is 1
-    let endDate = new Date(new Date(startDate).setHours(startDate.getHours()+20));
+    let endDate = new Date(new Date(startDate).setHours(startDate.getHours()+));
 
     return {
         startDate,

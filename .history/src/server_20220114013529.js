@@ -14,7 +14,7 @@ setInterval(() => {
             }else{
             }
           })
-        }   
+        }
     )
     .catch((e) => {
       console.log(e);

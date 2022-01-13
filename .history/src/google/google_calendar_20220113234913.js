@@ -42,13 +42,13 @@ const dateTimeForCalander = () => {
         minute = `0${minute}`;
     }
 
-    let newDateTime = `${year}-${month}-${day}T${hour}:${minute}:00.000`;
+    let newDateTime = `${year}-${month}-${day}T${hour}:${minute}:00.000${TIMEOFFSET}`;
 
     let event = new Date(Date.parse(newDateTime));
 
     let startDate = event;
     // Delay in end time is 1
-    let endDate = new Date(new Date(startDate).setHours(startDate.getHours()+20));
+    let endDate = new Date(new Date(startDate).setHours(startDate.getHours()+1));
 
     return {
         startDate,

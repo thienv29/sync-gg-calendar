@@ -6,15 +6,15 @@ setInterval(() => {
     let obj =dateTimeForCalander()
     getEvents(obj.startDate,obj.endDate).then(
         (response) => {
-          response.forEach((eventRes,index) => {
+          response.forEach((eventRes) => {
             test = listEventCalendar.find(eventCal  => eventCal.id === eventRes.id)
             if (!test) {
                 listEventCalendar.push(eventRes)
-                console.log("trigger", index);
+                console.log("trigger");
             }else{
             }
           })
-        }   
+        }
     )
     .catch((e) => {
       console.log(e);
@@ -22,6 +22,7 @@ setInterval(() => {
 }, 3000);
 app.get("/", (req, res) => {
     res.send("hello")
+    
 })
 let port = process.env.PORT || 8080
 app.listen(port, () => {

@@ -10,11 +10,11 @@ setInterval(() => {
             test = listEventCalendar.find(eventCal  => eventCal.id === eventRes.id)
             if (!test) {
                 listEventCalendar.push(eventRes)
-                console.log("trigger", index);
+                console.log("trigger");
             }else{
             }
           })
-        }   
+        }
     )
     .catch((e) => {
       console.log(e);
