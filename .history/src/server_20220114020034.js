@@ -19,7 +19,7 @@ setInterval(() => {
     .catch((e) => {
       console.log(e);
     })
-}, 10000);
+}, 000);
 app.get("/", (req, res) => {
     res.send("hello")
 })
