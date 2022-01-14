@@ -1,0 +1,182 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "\"3284133691408000\"",
+    "id": "4203j6g2tbj4h9hjo48scigaf0",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NDIwM2o2ZzJ0Ymo0aDloam80OHNjaWdhZjAgOTg0Z2Y5ZjVua2Fha2kwc28ycnJybmwzMzRAZw&ctz=Asia/Kolkata",
+    "created": "2022-01-13T09:40:45.000Z",
+    "updated": "2022-01-13T09:40:45.704Z",
+    "summary": "Vũ Quý Thiện cho sssss",
+    "description": "Vũ Quý Thiện đã xác nhận cuộc hẹn đối với: sssss Thay đổi thực hiện từ Lịch Google đối với cuộc hẹn này sẽ không hiển thị với khách hàng hoặc trên lịch của bạn trên Facebook. Nhắn tin cho Vũ Quý Thiện về những thay đổi hoặc câu hỏi: https://www.facebook.com/Vqtshop-111023577886033/manager/messages/inbox/?selected_item_id=100013518139465 Xem tất cả yêu cầu cuộc hẹn của bạn trên Facebook: https://www.facebook.com/Vqtshop-111023577886033/manager/messages/inbox/",
+    "colorId": "10",
+    "creator": { "email": "thienv29@gmail.com" },
+    "organizer": {
+      "email": "984gf9f5nkaaki0so2rrrnl334@group.calendar.google.com",
+      "displayName": "Cuộc hẹn trên Facebook của Vqtshop",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-01-15T12:00:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "end": {
+      "dateTime": "2022-01-15T12:30:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "iCalUID": "4203j6g2tbj4h9hjo48scigaf0@google.com",
+    "sequence": 0,
+    "reminders": { "useDefault": true },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3284316981364000\"",
+    "id": "4f150h9quvi561b4m14tii01b4",
+    "status": "tentative",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NGYxNTBoOXF1dmk1NjFiNG0xNHRpaTAxYjQgOTg0Z2Y5ZjVua2Fha2kwc28ycnJybmwzMzRAZw&ctz=Asia/Kolkata",
+    "created": "2022-01-14T11:08:10.000Z",
+    "updated": "2022-01-14T11:08:10.682Z",
+    "summary": "Đang chờ: Vũ Quý Thiện dành cho sssss",
+    "description": "Vũ Quý Thiện đã yêu cầu cuộc hẹn đối với: sssss Thay đổi thực hiện từ Lịch Google đối với cuộc hẹn này sẽ không hiển thị với khách hàng hoặc trên lịch của bạn trên Facebook. Hãy xác nhận cuộc hẹn của họ ngay: https://www.facebook.com/vqtshop/appointments/?tab=REQUESTS Nhắn tin cho Vũ Quý Thiện về những thay đổi hoặc câu hỏi: https://www.facebook.com/vqtshop/manager/messages/inbox/?selected_item_id=100013518139465 Xem tất cả yêu cầu cuộc hẹn của bạn trên Facebook: https://www.facebook.com/vqtshop/manager/messages/inbox/",
+    "colorId": "5",
+    "creator": { "email": "thienv29@gmail.com" },
+    "organizer": {
+      "email": "984gf9f5nkaaki0so2rrrnl334@group.calendar.google.com",
+      "displayName": "Cuộc hẹn trên Facebook của Vqtshop",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-01-22T21:30:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "end": {
+      "dateTime": "2022-01-22T22:00:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "iCalUID": "4f150h9quvi561b4m14tii01b4@google.com",
+    "sequence": 1,
+    "reminders": { "useDefault": true },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3284317059802000\"",
+    "id": "hv5b1kfh68k9687lb8o1oiquhc",
+    "status": "tentative",
+    "htmlLink": "https://www.google.com/calendar/event?eid=aHY1YjFrZmg2OGs5Njg3bGI4bzFvaXF1aGMgOTg0Z2Y5ZjVua2Fha2kwc28ycnJybmwzMzRAZw&ctz=Asia/Kolkata",
+    "created": "2022-01-14T11:08:49.000Z",
+    "updated": "2022-01-14T11:08:49.901Z",
+    "summary": "Đang chờ: Vũ Quý Thiện dành cho sssss",
+    "description": "Vũ Quý Thiện đã yêu cầu cuộc hẹn đối với: sssss Thay đổi thực hiện từ Lịch Google đối với cuộc hẹn này sẽ không hiển thị với khách hàng hoặc trên lịch của bạn trên Facebook. Hãy xác nhận cuộc hẹn của họ ngay: https://www.facebook.com/vqtshop/appointments/?tab=REQUESTS Nhắn tin cho Vũ Quý Thiện về những thay đổi hoặc câu hỏi: https://www.facebook.com/vqtshop/manager/messages/inbox/?selected_item_id=100013518139465 Xem tất cả yêu cầu cuộc hẹn của bạn trên Facebook: https://www.facebook.com/vqtshop/manager/messages/inbox/",
+    "colorId": "5",
+    "creator": { "email": "thienv29@gmail.com" },
+    "organizer": {
+      "email": "984gf9f5nkaaki0so2rrrnl334@group.calendar.google.com",
+      "displayName": "Cuộc hẹn trên Facebook của Vqtshop",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-02-12T10:00:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "end": {
+      "dateTime": "2022-02-12T10:30:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "iCalUID": "hv5b1kfh68k9687lb8o1oiquhc@google.com",
+    "sequence": 1,
+    "reminders": { "useDefault": true },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3284317273582000\"",
+    "id": "6hocjdqa9m9fu3krcsqu66l92c",
+    "status": "tentative",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NmhvY2pkcWE5bTlmdTNrcmNzcXU2Nmw5MmMgOTg0Z2Y5ZjVua2Fha2kwc28ycnJybmwzMzRAZw&ctz=Asia/Kolkata",
+    "created": "2022-01-14T11:10:36.000Z",
+    "updated": "2022-01-14T11:10:36.791Z",
+    "summary": "Đang chờ: Vũ Quý Thiện dành cho sssss",
+    "description": "Vũ Quý Thiện đã yêu cầu cuộc hẹn đối với: sssss Thay đổi thực hiện từ Lịch Google đối với cuộc hẹn này sẽ không hiển thị với khách hàng hoặc trên lịch của bạn trên Facebook. Hãy xác nhận cuộc hẹn của họ ngay: https://www.facebook.com/vqtshop/appointments/?tab=REQUESTS Nhắn tin cho Vũ Quý Thiện về những thay đổi hoặc câu hỏi: https://www.facebook.com/vqtshop/manager/messages/inbox/?selected_item_id=100013518139465 Xem tất cả yêu cầu cuộc hẹn của bạn trên Facebook: https://www.facebook.com/vqtshop/manager/messages/inbox/",
+    "colorId": "5",
+    "creator": { "email": "thienv29@gmail.com" },
+    "organizer": {
+      "email": "984gf9f5nkaaki0so2rrrnl334@group.calendar.google.com",
+      "displayName": "Cuộc hẹn trên Facebook của Vqtshop",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-02-25T11:30:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "end": {
+      "dateTime": "2022-02-25T12:00:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "iCalUID": "6hocjdqa9m9fu3krcsqu66l92c@google.com",
+    "sequence": 1,
+    "reminders": { "useDefault": true },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3284317323148000\"",
+    "id": "a7re3m7i9eu9jrtv398rgvjp1s",
+    "status": "tentative",
+    "htmlLink": "https://www.google.com/calendar/event?eid=YTdyZTNtN2k5ZXU5anJ0djM5OHJndmpwMXMgOTg0Z2Y5ZjVua2Fha2kwc28ycnJybmwzMzRAZw&ctz=Asia/Kolkata",
+    "created": "2022-01-14T11:11:01.000Z",
+    "updated": "2022-01-14T11:11:01.574Z",
+    "summary": "Đang chờ: Vũ Quý Thiện dành cho sssss",
+    "description": "Vũ Quý Thiện đã yêu cầu cuộc hẹn đối với: sssss Thay đổi thực hiện từ Lịch Google đối với cuộc hẹn này sẽ không hiển thị với khách hàng hoặc trên lịch của bạn trên Facebook. Hãy xác nhận cuộc hẹn của họ ngay: https://www.facebook.com/vqtshop/appointments/?tab=REQUESTS Nhắn tin cho Vũ Quý Thiện về những thay đổi hoặc câu hỏi: https://www.facebook.com/vqtshop/manager/messages/inbox/?selected_item_id=100013518139465 Xem tất cả yêu cầu cuộc hẹn của bạn trên Facebook: https://www.facebook.com/vqtshop/manager/messages/inbox/",
+    "colorId": "5",
+    "creator": { "email": "thienv29@gmail.com" },
+    "organizer": {
+      "email": "984gf9f5nkaaki0so2rrrnl334@group.calendar.google.com",
+      "displayName": "Cuộc hẹn trên Facebook của Vqtshop",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-06-10T09:30:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "end": {
+      "dateTime": "2022-06-10T10:00:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "iCalUID": "a7re3m7i9eu9jrtv398rgvjp1s@google.com",
+    "sequence": 1,
+    "reminders": { "useDefault": true },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3284372531286000\"",
+    "id": "qvedi1lif3vi3t1akivbug2cq4",
+    "status": "tentative",
+    "htmlLink": "https://www.google.com/calendar/event?eid=cXZlZGkxbGlmM3ZpM3QxYWtpdmJ1ZzJjcTQgOTg0Z2Y5ZjVua2Fha2kwc28ycnJybmwzMzRAZw&ctz=Asia/Kolkata",
+    "created": "2022-01-14T18:51:05.000Z",
+    "updated": "2022-01-14T18:51:05.643Z",
+    "summary": "Đang chờ: Vũ Quý Thiện dành cho sssss",
+    "description": "Vũ Quý Thiện đã yêu cầu cuộc hẹn đối với: sssss Thay đổi thực hiện từ Lịch Google đối với cuộc hẹn này sẽ không hiển thị với khách hàng hoặc trên lịch của bạn trên Facebook. Hãy xác nhận cuộc hẹn của họ ngay: https://www.facebook.com/vqtshop/appointments/?tab=REQUESTS Nhắn tin cho Vũ Quý Thiện về những thay đổi hoặc câu hỏi: https://www.facebook.com/vqtshop/manager/messages/inbox/?selected_item_id=100013518139465 Xem tất cả yêu cầu cuộc hẹn của bạn trên Facebook: https://www.facebook.com/vqtshop/manager/messages/inbox/",
+    "colorId": "5",
+    "creator": { "email": "thienv29@gmail.com" },
+    "organizer": {
+      "email": "984gf9f5nkaaki0so2rrrnl334@group.calendar.google.com",
+      "displayName": "Cuộc hẹn trên Facebook của Vqtshop",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-01-15T00:30:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "end": {
+      "dateTime": "2022-01-15T01:00:00+05:30",
+      "timeZone": "Asia/Bangkok"
+    },
+    "iCalUID": "qvedi1lif3vi3t1akivbug2cq4@google.com",
+    "sequence": 1,
+    "reminders": { "useDefault": true },
+    "eventType": "default"
+  }
+]
