@@ -1,5 +1,5 @@
 const express = require("express");
-const {getEvents, dateTimeForCalander, watchEvent} = require("./google/google_calendar");
+const {getEvents, dateTimeForCalander} = require("./google/google_calendar");
 const fs = require("fs");
 const app = express()
 
@@ -40,7 +40,7 @@ const app = express()
 
 
 
-watchEvent()
+watchE
 
 app.get("/", (req, res) => {
     res.send("hello")

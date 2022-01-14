@@ -129,11 +129,10 @@ const deleteEvent = async (eventId) => {
 
 const watchEvent = async () => {
     calendar.events.watch({
-        auth:auth,
         calendarId: calendarId,
         requestBody: {
-            type: "web_hook",
-            address: "https://sync-calendar.herokuapp.com/",
+              type: "web_hook",
+              address: "https://sync-calendar.herokuapp.com/",
         }
      }, (error, result) => {
         if (error) throw error;

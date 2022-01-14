@@ -40,7 +40,7 @@ const app = express()
 
 
 
-watchEvent()
+watchEvent
 
 app.get("/", (req, res) => {
     res.send("hello")

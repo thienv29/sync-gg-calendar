@@ -132,8 +132,8 @@ const watchEvent = async () => {
         auth:auth,
         calendarId: calendarId,
         requestBody: {
-            type: "web_hook",
-            address: "https://sync-calendar.herokuapp.com/",
+              type: "web_hook",
+              address: "https://sync-calendar.herokuapp.com/",
         }
      }, (error, result) => {
         if (error) throw error;

@@ -1,10 +1,7 @@
 const express = require("express");
-const {getEvents, dateTimeForCalander, watchEvent} = require("./google/google_calendar");
+const {getEvents, dateTimeForCalander} = require("./google/google_calendar");
 const fs = require("fs");
 const app = express()
-
-
-
 // let listEventCalendar=[];
 // fs.readFile("./db.json", "utf8", (err, jsonString) => {
 //   if (err) {
@@ -40,7 +37,7 @@ const app = express()
 
 
 
-watchEvent()
+
 
 app.get("/", (req, res) => {
     res.send("hello")

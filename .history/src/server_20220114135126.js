@@ -1,10 +1,7 @@
 const express = require("express");
-const {getEvents, dateTimeForCalander, watchEvent} = require("./google/google_calendar");
+const {getEvents, dateTimeForCalander} = require("./google/google_calendar");
 const fs = require("fs");
 const app = express()
-
-
-
 // let listEventCalendar=[];
 // fs.readFile("./db.json", "utf8", (err, jsonString) => {
 //   if (err) {
@@ -38,15 +35,11 @@ const app = express()
 //     })
 // }, 120000);
 
-
-
-watchEvent()
-
 app.get("/", (req, res) => {
     res.send("hello")
 })
 app.post("/web_hook", (req, res) => {
-    console.log(req);
+    console.log();
 })
 let port = process.env.PORT || 8080
 app.listen(port, () => {
