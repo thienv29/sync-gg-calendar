@@ -26,7 +26,7 @@ setInterval(() => {
                 listEventCalendar.push(eventRes)
                  fs.writeFile("./db.json",JSON.stringify(listEventCalendar),(err) => {
                    if (err) {
-                    console.log(err);
+                     
                    }
                  })
                 console.log("trigger", index);

@@ -10,8 +10,7 @@ fs.readFile("./db.json", "utf8", (err, jsonString) => {
     console.log("File read failed:", err);
     return;
   }
-  console.log("File data:");
-  listEventCalendar = JSON.parse(jsonString)
+  console.log("File data:", jsonString);
 });
 
 
@@ -25,9 +24,7 @@ setInterval(() => {
             if (!test) {
                 listEventCalendar.push(eventRes)
                  fs.writeFile("./db.json",JSON.stringify(listEventCalendar),(err) => {
-                   if (err) {
-                    console.log(err);
-                   }
+                   console.log(err);
                  })
                 console.log("trigger", index);
             }else{

@@ -2,20 +2,21 @@ const express = require("express");
 const {getEvents, dateTimeForCalander} = require("./google/google_calendar");
 const fs = require("fs");
 const app = express()
-let listEventCalendar=[];
 
 
-fs.readFile("./db.json", "utf8", (err, jsonString) => {
+
+let rawdata = fs.readFile('./db.json');
+console.log(JSON.parse(rawdata));
+fs.readFile("./customer.json", "utf8", (err, jsonString) => {
   if (err) {
     console.log("File read failed:", err);
     return;
   }
-  console.log("File data:");
-  listEventCalendar = JSON.parse(jsonString)
+  console.log("File data:", jsonString);
 });
 
 
-
+let listEventCalendar=[];
 setInterval(() => {
     let obj =dateTimeForCalander()
     getEvents(obj.startDate,obj.endDate).then(
@@ -25,9 +26,7 @@ setInterval(() => {
             if (!test) {
                 listEventCalendar.push(eventRes)
                  fs.writeFile("./db.json",JSON.stringify(listEventCalendar),(err) => {
-                   if (err) {
-                    console.log(err);
-                   }
+                   console.log(err);
                  })
                 console.log("trigger", index);
             }else{
