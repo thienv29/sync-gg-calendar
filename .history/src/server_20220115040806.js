@@ -15,10 +15,8 @@ getEvents(Date.startDate, Date.endDate).then(
 })
 
 
-app.get("/",(req,res) => {
-  res.send("hello")
-})
-app.post("/calendar-notify", (req, res) => {
+app.get("/",f)
+app.post("/", (req, res) => {
   listEventLocal = checkSizeData(listEventLocal)
   let Date = dateTimeForCalander()
 

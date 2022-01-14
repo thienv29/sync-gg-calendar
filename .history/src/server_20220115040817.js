@@ -1,4 +1,5 @@
 const express = require("express");
+const res = require("express/lib/response");
 const { getEvents, dateTimeForCalander, watchEvent } = require("./google/google_calendar");
 const { getDataFromFile, saveDataToFile } = require("./until/fileCTR");
 const { checkEventsChange, checkSizeData } = require("./until/handleData");
@@ -15,10 +16,10 @@ getEvents(Date.startDate, Date.endDate).then(
 })
 
 
-app.get("/",(req,res) => {
+app.get("/",() => {
   res.send("hello")
 })
-app.post("/calendar-notify", (req, res) => {
+app.post("/", (req, res) => {
   listEventLocal = checkSizeData(listEventLocal)
   let Date = dateTimeForCalander()
 
