@@ -133,7 +133,7 @@ const watchEvent = async () => {
         auth:auth,
         calendarId: calendarId,
         requestBody: {
-            id:uuid.v1(),
+            id:uuid(),
             type: "web_hook",
             address: "https://sync-calendar.herokuapp.com",
         }

@@ -1,6 +1,5 @@
 const {google} = require('googleapis');
 require('dotenv').config();
-const uuid = require("uuid")
 
 // Provide the required configuration
 const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
@@ -133,9 +132,9 @@ const watchEvent = async () => {
         auth:auth,
         calendarId: calendarId,
         requestBody: {
-            id:uuid.v1(),
+            id:""
             type: "web_hook",
-            address: "https://sync-calendar.herokuapp.com",
+            address: "https://sync-calendar.herokuapp.com/",
         }
      }, (error, result) => {
         if (error) throw error;

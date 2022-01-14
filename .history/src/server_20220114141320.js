@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
 app.post("/web_hook", (req, res) => {
     console.log(req);
 })
-app.post("/", (req, res) => {
+app.post("/web_hook", (req, res) => {
   console.log(req);
 })
 let port = process.env.PORT || 8080
