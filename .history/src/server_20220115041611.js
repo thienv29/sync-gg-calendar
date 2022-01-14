@@ -34,5 +34,5 @@ app.post("/calendar-notify", (req, res) => {
 
 let port = process.env.PORT || 3000
 app.listen(port, () => {
-  console.log('server is running 3000');
+  console.log('server is running');
 })
